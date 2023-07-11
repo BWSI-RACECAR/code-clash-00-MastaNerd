@@ -1,14 +1,14 @@
-class HelloWorld:
-    def helloWorlder(self, input):
-        if input == "Hello World!":
+class Solution:
+    def helloworld(self, string):
+        if string == "Hello World!":
             return "Hello World!"
         else:
             pass
 
 def main():
-    tc1 = HelloWorld()
+    tc1 = Solution()
     string1= input()
-    ans = tc1.helloWorlder(string1)
+    ans = tc1.helloworld(string1)
     print(ans)
 
 if __name__ == "__main__":
