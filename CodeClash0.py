@@ -1,5 +1,5 @@
 class HelloWorld:
-    def helloWorlder(self, Heinput):
+    def helloWorlder(self, input):
         if input == "Hello World!":
             return "Hello World!"
         else:
